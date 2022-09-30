@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nav Bar</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+    </head>
+    <body>
+        <nav class="nav" id="nav">
+            <div class="nav_menu container" id="nav-menu">
+                <div class="nav__shape"></div>
+                <div class="nav__close" id="nav-close">
+                    <span class="material-icons">close</span>
+                </div>
+                <div class="nav__data">
+                    <div class="nav__mask">
+                        <img src="img/imagen.jpg" alt="" class="nav__img">
+                    </div>
+                    <span class="nav_saludo">Hola, Yo soy </span>
+                    <h1 class="nav__name">Proyecto <br>Sass</h1>
+                </div>
+            </div>
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#inicio" class="nav__link">
+                        <span class="material-icons">home</span>
+                        inicio
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#acerca" class="nav__link">
+                        <span class="material-icons">account_circle</span>
+                        acerca
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#portafolio" class="nav__link">
+                        <span class="material-icons">work</span>
+                        hoja de vida
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#habilidades" class="nav__link">
+                        <span class="material-icons">bookmarks</span>
+                        habilidades 
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contacto" class="nav__link">
+                        <span class="material-icons">chat</span>
+                        contacto
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <main class="main" id="main">
+            <header class="header" id="header">
+                <nav class="header__nav container">
+                    <a href="#" class="header__logo">Hawaii</a>
+                    
+                    <div class="header__toggle" id="header-toggle">
+                        <span class="material-icons">view_headline</span>
+                    </div>
+                </nav>
+            </header>
+            <section class="section section_height container" id="inicio">
+                <h1>inicio</h1>
+            </section>
+            <section class="section section_height container" id="acerca">
+                <h1>acerca</h1>
+            </section>
+            <section class="section section_height container" id="portafolio">
+                <h1>portafolio</h1>
+            </section>
+            <section class="section section_height container" id="habilidades">
+                <h1>habilidades</h1>
+            </section>
+            <section class="section section_height container" id="contacto">
+                <h1>contacto</h1>
+            </section>
+            
+        </main>
+        <script src="js/main.js"></script>
+    </body>
+</html>
