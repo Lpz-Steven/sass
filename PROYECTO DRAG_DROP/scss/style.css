@@ -46,7 +46,7 @@ img {
 .drop_container {
   row-gap: 1rem;
   padding: 2rem;
-  box-shadow: 4px 4px 16px #E1E1E1;
+  box-shadow: 4px 4px 16px #d5bdaf;
 }
 
 .drop_card, .drop_data {
@@ -59,7 +59,7 @@ img {
   justify-content: space-between;
   padding: 0.75rem 1.25rem 0.75rem 0.75rem;
   background-color: var(--first-color-lighten);
-  box-shadow: 4px 4px 16px #E1E1E1;
+  box-shadow: 4px 4px 16px #d5bdaf;
   border-radius: 2.5rem;
 }
 

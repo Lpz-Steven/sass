@@ -1,0 +1,74 @@
+/////////////////////////
+///patron de colores
+///////////////////////////
+$principal: rgb(64, 129, 69);
+
+//////////////////////////////////
+//modificar variables
+///////////////////////////////////
+$primary: $principal;
+$enable-shadows: true;
+$enable-gradients: true;
+$btn-padding-y: 0.8rem;
+$btn-padding-x: 1.5rem;
+$btn-border-radius: 1rem;
+
+
+@import "../libs/bootstrap-5.2.0/scss/bootstrap";
+
+.btn-primary {
+    border-bottom: 5px solid rgba(10, 9, 9, 0.9);
+}
+
+.custom-class {
+    display: none;
+}
+
+@include media-breakpoint-up(xs) {
+    .custom-class {
+        display: block;
+        background-image: url("../img/1.jpg");
+        height: 250px;
+        width: 800px;
+        background-size: cover;
+        background-position:  center center;
+    }
+}
+
+
+@include media-breakpoint-up(sm) {
+.custom-class {
+    display: flex;
+    background-image: url("../img/2.jpg");
+    height: 350px;
+    width: 500px;
+    background-size: cover;
+    background-position:  center center;
+}
+}
+
+@include media-breakpoint-up(md) {
+.custom-class {
+    display: flex;
+    background-image: url("../img/3.webp");
+    height: 350px;
+    width: 500px;
+    background-size: cover;
+    background-position:  center center;
+}
+}
+
+@include media-breakpoint-up(lg) {
+.custom-class {
+    display: flex;
+    background-image: url("../img/4.jpg");
+    height: 400px;
+    width: 800px;
+    background-size: cover;
+    background-position:  center center;
+}
+}
+
+
+
+
